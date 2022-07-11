@@ -12,13 +12,13 @@
 		A8B0F80328338E410018F227 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0F80228338E410018F227 /* News.swift */; };
 		A8CB748E283227AF0051F72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB748D283227AF0051F72C /* AppDelegate.swift */; };
 		A8CB7490283227AF0051F72C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB748F283227AF0051F72C /* SceneDelegate.swift */; };
-		A8CB7492283227AF0051F72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB7491283227AF0051F72C /* ViewController.swift */; };
 		A8CB7495283227AF0051F72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB7493283227AF0051F72C /* Main.storyboard */; };
 		A8CB7497283227B00051F72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CB7496283227B00051F72C /* Assets.xcassets */; };
 		A8CB749A283227B00051F72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB7498283227B00051F72C /* LaunchScreen.storyboard */; };
 		A8CB74A5283227B00051F72C /* ScrapingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB74A4283227B00051F72C /* ScrapingTests.swift */; };
 		A8CB74AF283227B00051F72C /* ScrapingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB74AE283227B00051F72C /* ScrapingUITests.swift */; };
 		A8CB74B1283227B00051F72C /* ScrapingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB74B0283227B00051F72C /* ScrapingUITestsLaunchTests.swift */; };
+		A8EFA5A0287C177F0051D40F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EFA59F287C177F0051D40F /* ViewController.swift */; };
 		F8B9426FAC9B632CDCCE24A9 /* Pods_Scraping_ScrapingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04724E461E8AD242580CFE34 /* Pods_Scraping_ScrapingUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		A8CB748A283227AF0051F72C /* Scraping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scraping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CB748D283227AF0051F72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8CB748F283227AF0051F72C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8CB7491283227AF0051F72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8CB7494283227AF0051F72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8CB7496283227B00051F72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8CB7499283227B00051F72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		A8CB74AA283227B00051F72C /* ScrapingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrapingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CB74AE283227B00051F72C /* ScrapingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapingUITests.swift; sourceTree = "<group>"; };
 		A8CB74B0283227B00051F72C /* ScrapingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8EFA59F287C177F0051D40F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEE607D2C0DD688E7300D879 /* Pods_Scraping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scraping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9531CBFCECB9403B9176D8E /* Pods-Scraping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scraping.debug.xcconfig"; path = "Target Support Files/Pods-Scraping/Pods-Scraping.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,10 +128,10 @@
 		A8CB748C283227AF0051F72C /* Scraping */ = {
 			isa = PBXGroup;
 			children = (
+				A8EFA59E287C177F0051D40F /* Views */,
 				A8CB748D283227AF0051F72C /* AppDelegate.swift */,
 				A8CB748F283227AF0051F72C /* SceneDelegate.swift */,
 				A8B0F80228338E410018F227 /* News.swift */,
-				A8CB7491283227AF0051F72C /* ViewController.swift */,
 				A8CB7493283227AF0051F72C /* Main.storyboard */,
 				A8CB7496283227B00051F72C /* Assets.xcassets */,
 				A8CB7498283227B00051F72C /* LaunchScreen.storyboard */,
@@ -155,6 +155,14 @@
 				A8CB74B0283227B00051F72C /* ScrapingUITestsLaunchTests.swift */,
 			);
 			path = ScrapingUITests;
+			sourceTree = "<group>";
+		};
+		A8EFA59E287C177F0051D40F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8EFA59F287C177F0051D40F /* ViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B9A4B873CCD06B44E818A5F9 /* Pods */ = {
@@ -409,9 +417,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8CB7492283227AF0051F72C /* ViewController.swift in Sources */,
 				A8CB748E283227AF0051F72C /* AppDelegate.swift in Sources */,
 				A8B0F80328338E410018F227 /* News.swift in Sources */,
+				A8EFA5A0287C177F0051D40F /* ViewController.swift in Sources */,
 				A8CB7490283227AF0051F72C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
